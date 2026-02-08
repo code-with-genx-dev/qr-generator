@@ -9,19 +9,19 @@ const Learn = () => {
                     📘 Learn More About This Project
                 </h2>
 
-                <p className="text-indigo-900 leading-relaxed">
+                <p className="text-indigo-900 leading-relaxed text-[14px] md:text-[20px]">
                     This project is created purely for educational purposes to demonstrate
                     how QR codes can be generated and handled in a modern frontend
                     application using React.
                 </p>
 
-                <p className="text-indigo-900 leading-relaxed">
+                <p className="text-indigo-900 leading-relaxed text-[14px] md:text-[20px]">
                     The QR codes in this application are generated using the{" "}
                     <a
                         href="https://goqr.me/api/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-indigo-600 font-medium underline hover:text-indigo-800"
+                        className="text-indigo-600 font-medium underline hover:text-indigo-800 text-[14px] md:text-[20px]"
                     >
                         QR Code Generator API provided by qrserver.com
                     </a>
@@ -30,18 +30,18 @@ const Learn = () => {
                     instantly returns a QR image without requiring any backend processing.
                 </p>
 
-                <p className="text-indigo-900 leading-relaxed">
+                <p className="text-indigo-900 leading-relaxed text-[14px] md:text-[20px]">
                     To ensure proper handling of special characters and URLs, the input
                     data is encoded before being sent to the API. This prevents broken links
                     or invalid QR codes and follows best practices when working with URLs.
                 </p>
 
-                <p className="text-indigo-900 leading-relaxed">
+                <p className="text-indigo-900 leading-relaxed text-[14px] md:text-[20px]">
                     Once the QR code is generated, the application provides a download
                     feature implemented using the browser’s{" "}
-                    <span className="font-mono bg-indigo-100 px-1 rounded">fetch</span> API
+                    <span className="font-mono bg-indigo-100 px-1 rounded text-[14px] md:text-[20px]">fetch</span> API
                     and{" "}
-                    <span className="font-mono bg-indigo-100 px-1 rounded">Blob</span>{" "}
+                    <span className="font-mono bg-indigo-100 px-1 rounded text-[14px] md:text-[20px]">Blob</span>{" "}
                     objects. The image is fetched as binary data, converted into an object
                     URL, and then programmatically downloaded using a temporary anchor
                     element. This approach provides better control over file naming and
@@ -52,7 +52,7 @@ const Learn = () => {
                     <h3 className="text-lg font-semibold text-indigo-600 mb-3">
                         Key Concepts Covered
                     </h3>
-                    <ul className="list-disc list-inside space-y-2 text-indigo-900">
+                    <ul className="list-disc list-inside space-y-2 text-indigo-900 text-[14px] md:text-[20px]">
                         <li>API integration using query parameters</li>
                         <li>State management with React hooks</li>
                         <li>Conditional rendering and loading states</li>
@@ -61,7 +61,7 @@ const Learn = () => {
                     </ul>
                 </div>
 
-                <p className="text-indigo-900 leading-relaxed">
+                <p className="text-indigo-900 leading-relaxed text-[14px] md:text-[20px]">
                     By combining these concepts, the project simulates a practical
                     real-world use case while keeping the implementation simple and
                     beginner-friendly.

@@ -126,7 +126,7 @@ export const QrGenerator = () => {
                </button>
                <Link
                   to="/"
-                  className="px-10 cursor-pointer bg-sky-500 text-white py-2 rounded-lg font-medium hover:bg-sky-700 disabled:opacity-50"
+                  className="px-10 cursor-pointer flex justify-center bg-sky-500 text-white py-2 rounded-lg font-medium hover:bg-sky-700 disabled:opacity-50"
                >
                   Home
                </Link>
